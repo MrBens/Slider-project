@@ -10,7 +10,6 @@ body{
 
 .fs-1{
     font-size: 1.5em;
-    
 }
 
 .slider-container {
@@ -26,7 +25,7 @@ body{
     width: 100%;
     left: 0;
     display: flex;
-    transition: all ease 2s;
+    transition: all ease 1.5s;
 
 }
 
