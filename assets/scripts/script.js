@@ -1,9 +1,9 @@
 const sliders = document.querySelectorAll('.slider'), 
 imgs = [
-    "url('./assets/img/tree-736885_960_720.webp') center/cover no-repeat",
-    "url('./assets/img/tree-736885_960_720.webp') center/cover no-repeat",
-    "url('./assets/img/tree-736885_960_720.webp') center/cover no-repeat",
-    "url('./assets/img/tree-736885_960_720.webp') center/cover no-repeat" ];
+    "url('./assets/img/pcwide.jpg') center/cover no-repeat",
+    "url('./assets/img/code.jpg') center/cover no-repeat",
+    "url('./assets/img/codezoom.jpg') center/cover no-repeat",
+    "url('./assets/img/pclight.jpg') center/cover no-repeat" ];
 let sliderArr = [];
 let Slider = {
     navBar : false,
