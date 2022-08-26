@@ -127,7 +127,7 @@ body{
 
 .nav-link {
     display: none;
-    max-width: 100px;
+    width: max-content;
     text-align: center;
     position: absolute;
     bottom: 200%;
