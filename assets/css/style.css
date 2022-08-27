@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 0;
+    font-weight: 700;
 }
 
 body{
@@ -10,6 +19,10 @@ body{
 
 .fs-1{
     font-size: 1.5em;
+}
+
+.fs-4{
+    font-size: 4em;
 }
 
 .slider-container {
@@ -217,10 +230,6 @@ body{
 
 .overflow-y-auto{
     overflow: auto
-}
-
-.mr-20{
-    margin-right: 20%;
 }
 
 @media screen and (min-width: 992px){

@@ -48,11 +48,11 @@ for (let i = 0; i < sliders.length; i++) {
                     temp.forEach(element => {
                         if (element.classList.contains('slide')) {
                             if (temp.indexOf(element) == j) {
-                                let title = element.getAttribute('name')
+                                let title = element.dataset.name
                                 let link = document.createElement('div')
                                 link.classList.add('nav-link')
                                 dot.append(link)
-                                link.innerHTML = `${title}`
+                                link.innerHTML = `${element.dataset.name}`
                             }
                         }
                     })

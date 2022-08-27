@@ -13,11 +13,13 @@
         <div>
             <div class="slider-container scroll-horizontal">
                 <div class="slider navigation nav-links nav-dots nav-arrow">
-                    <section class="slide" name="Acceuil">
+                    <section class="slide" data-name="Acceuil">
                         <div>
                             <div class="slider-container scroll-vertical">
                                 <div class="slider slider-img navigation nav-arrow">
-                                    <div class="slide"></div>
+                                    <div class="slide d-flex align-items-center justify-content-center">
+                                        <h2 class="fs-4 text-white p-2 bg-orange">Création de site Web</h2>
+                                    </div>
                                     <div class="slide"></div>
                                     <div class="slide"></div>
                                     <div class="slide"></div>
@@ -26,7 +28,7 @@
                             <img id="logo" src="assets/img/Steel-Chamelons.png" alt="">
                         </div>
                     </section>
-                    <section class="slide" name="Réalisations">
+                    <section class="slide" data-name="Réalisations">
                         <div>
                             <div class="slider-container scroll-vertical">
                                 <div class="slider navigation nav-dots nav-arrow">
@@ -156,7 +158,7 @@
                             </div>
                         </div>
                     </section>
-                    <section class="slide" name="Notre équipe">
+                    <section class="slide" data-name="Notre équipe">
                         <div>
                             <div class="slider-container scroll-vertical">
                                 <div class="slider navigation nav-dots nav-arrow">
@@ -198,7 +200,7 @@
                                                             similique obcaecati ipsam dignissimos omnis..
                                                             </p>
                                                         </div>
-                                                        <img class="rounded-circle ml-3 mr-20" src="assets/img/Ben.png" alt="photo Ben">
+                                                        <img class="rounded-circle ml-3 mr-5" src="assets/img/Ben.png" alt="photo Ben">
                                                     </div>
                                                 </div>
                                             </div>
@@ -233,7 +235,7 @@
                             </div>
                         </div> 
                     </section>
-                    <section class="slide about" name="A propos">
+                    <section class="slide about" data-name="A propos">
                         <div class="container h-100">
                             <h1 class="text-orange text-center">A propos</h1>
                             <div class="row h-100">
@@ -257,19 +259,19 @@
                             </div>
                         </div>
                     </section>
-                    <section class="slide contact" name="Contact">
+                    <section class="slide contact" data-name="Contact">
                         <div class="container-fluid">
                             <div class="row justify-content-center p-">
                                 <h1 class="text-orange">Contact :</h1>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <form action="" method="post">
+                                    <form action="#" method="post">
                                             <div class="form-group">
                                                 <label class="control-label col-sm-2 text-white" for="email">Mail:</label>
                                                 <div class="col">
-                                                <input type="email" class="form-control bg-orange border-0" id="email" placeholder="Entrer votre mail"
-                                                    name="email">
+                                                    <input type="email" class="form-control bg-orange border-0" id="email" placeholder="Entrer votre mail"
+                                                        name="email">
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -278,7 +280,6 @@
                                                     <input type="text" class="form-control bg-orange border-0" id="lname" placeholder="Objet" name="lname">
                                                 </div>
                                             </div>
-                        
                                             <div class="form-group">
                                                 <label class="control-label col-sm-2 text-white" for="comment">Messages:</label>
                                                 <div class="col">
@@ -290,12 +291,13 @@
                                                     <button type="submit" class="btn btn-default text-white bg-orange">Envoyer</button>
                                                 </div>
                                             </div>
-                                        </div>
                                     </form>
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.371152892405!2d5.166205950594097!3d43.47372417193406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9e45cba6a0d1d%3A0xb6bb5f86ee136e84!2sFoyer%20Ricard!5e0!3m2!1sfr!2sfr!4v1661238945663!5m2!1sfr!2sfr"
-                                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                    </iframe>
+                                    <div>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.371152892405!2d5.166205950594097!3d43.47372417193406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9e45cba6a0d1d%3A0xb6bb5f86ee136e84!2sFoyer%20Ricard!5e0!3m2!1sfr!2sfr!4v1661238945663!5m2!1sfr!2sfr"
+                                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                        </iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
